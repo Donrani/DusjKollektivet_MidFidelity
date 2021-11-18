@@ -1,1 +1,2 @@
-# DusjKollektivet_MidFidelity
+# DusjKollektivet-MID-F
+Midfidelity iteration 

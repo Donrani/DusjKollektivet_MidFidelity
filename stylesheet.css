@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    
+}
+
+/* Stylesheet for Navigation bar */ 
+
+.navbar{
+    width: 80%;
+    margin: 0 auto; 
+    padding-bottom: 50px;
+}
+
+header{
+    background-color: rgb(31, 31, 31);
+    margin-left: 0%;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: rgb(154, 212, 191);    
+    padding-bottom: 20px;
+    padding-bottom: 20;
+}
+
+.navLogo {
+    float: left;
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+    width: 80px;
+    height: auto;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul img{
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    border-radius: 80%;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 100px;
+    padding-top: 25px;
+    position: relative;
+}
+
+nav a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+
+}
+
+nav a:hover{
+    color:rgb(154, 212, 191);
+    font-weight: bold;
+   
+}
+nav a::before{
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: rgb(154, 212, 191);
+
+    position: absolute;
+    top: 0; 
+    width: 0%;
+}
+
+nav a:hover::before {
+    width: 100%;
+    transition: all ease-in-out 250ms;
+}
+
+/* Stylesheet for footer*/
+
+
+.footer-container{
+background-color: rgb(31, 31, 31);
+padding-bottom: 2rem;
+}
+
+.footer{
+    width: 80%;
+    height: 15vh;
+    background-color: rgb(31, 31, 31);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+color: #fff;
+text-decoration: none;
+margin-bottom: 0.5rem;
+}
+.footer-heading a:hover{
+    color:rgb(154, 212, 191);
+    transition: 0.3s ease-out;
+}
+
+.footer-email-form h2{
+    margin-bottom: 2rem;
+
+}
+
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder{
+    color:#b1b1b1;
+}
+
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: green;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: rgb(86, 255, 20);
+    transition: all 0.4s ease-out;
+}
+
+
+
+/* Stylesheet for Index */ 
+
+.first{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 60px;
+text-align: center;
+color: black;
+padding-top: 4em;
+text-transform: uppercase;
+background-color: #E0E0D8;
+}
+
+.second{
+padding: 30%;
+background-image: url(DropCounts.jpg);
+background-size: 100%;
+
+}
+
+.second h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: top;
+
+}
+
+
+.second a{
+    font-size: 25px;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    text-align:center
+}
+
+.second a:hover{
+    color: black;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.third {
+    background-image: url(underwater2.png.jpg);
+    background-size: 100%;
+    padding: 20%;
+    padding-top: 20%;
+    text-align: center;
+}
+
+.third h2{
+    color: white;
+    font-size: 10em;
+}
+
+.third a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.third a:hover{
+    color: whitesmoke;
+    font-size: 2.1em;
+    cursor: pointer;
+}
+
+.third video{
+    margin-top: 3rem;
+    border: none;
+    border-radius: 3rem;
+}
+
+/* Stylesheet for AboutUS */
+
+.profilePicture {
+width: 200px;
+height: 250px;
+border-radius: 80px;
+margin: auto 10%; 
+}
+
+.imageContainer{
+    margin-top: 30px;
+    display: inline-block;
+    margin:1px;     
+    width:20%;     
+    text-align:left;     
+    border: 1px solid;     
+    display:inline-block;
+    padding: 5px;
+   
+}
+.imageContainer p {
+    font-size: 22px;
+    text-align: center;
+
+}
+
+#aboutText h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#aboutText h3{
+    font-style: italic;
+}
+
+#aboutContainer{
+    color: black;
+    text-align: center;
+    width: 80%;
+    height: 300px;
+    padding-top: 20px;
+    }
+    
+    #aboutText
+    {
+        font-size: 40px;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+#employeesContainer{
+    margin-top: 60px;
+    height: 450px;
+    font-size: 30px;  
+    width:100%;
+    border: 0.5px solid black;
+    text-align: center;
+}
+
+
+#mainContainer{
+    background-color:#E0E0D8;
+    padding-left: 650px;
+    padding-right: 500px;
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+#myMenu{
+    display: block;
+    margin-right: 600px;
+    margin-bottom:0px;
+    margin-left: 2000px;
+    margin-top: 0px;
+}
+
+#myWrapper{
+    border-radius: 50px;
+}
+
+#historyContainer{
+height: 200px;
+margin: 80px auto;
+margin-left: 0px;
+font-size: 25px;
+text-align: left;
+
+}
+
+
+@media screen and (max-width: 1440px) {
+    
+.profilePicture{
+    width: 100px;
+    height: 150px;
+}
+
+#aboutText{
+    font-size: 25px;
+
+}
+#mainContainer{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.imageContainer{
+    margin-top: 50px;
+
+
+}
+.imageContainer p{
+    font-size: 15px;
+}
+
+#historyContainer{
+    font-size: 20px;
+}
+
+
+}
+
+
+
+/* Stylesheet for products */
+
+#productSiteContainer{
+    background-color:#E0E0D8;
+    padding: 50px 200px 20px 200px;
+    height: 100%;
+
+}
+
+#productContainer{
+    margin: auto;
+    
+}
+
+#productContainerText{
+    font-size: 30px;
+    
+}
+
+#ourProducts{
+    margin: 0px;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+
+.imageProductContainer{
+    height: 500px;
+    width: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: left;
+    border-style:none;
+    border-width: 1px;
+}
+
+h5{
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.productOrderContainer{
+    border-top: black;
+    margin-top: 2rem;
+    width: 8rem;
+    border-style: solid;
+    border-width: 3px;
+    background-color: rgb(226, 211, 0);
+    border-radius: 1rem;
+}
+
+.imageProductContainer a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.productOrderContainer:hover{
+    background-color:rgb(204, 191, 4);
+    transition: 1s;
+}
+
+.pictureProduct{
+    width: 500px;
+    height: auto;
+    float: right;
+    margin-right: 1000px;
+}
+
+@media screen and (max-width: 1440px) {
+
+.pictureProduct{
+    margin-right: 50px;
+}
+
+
+
+}
+
+
+
+
+/* Stylesheet for profileRegister */ 
+
+
+.container {
+  padding: 32px;
+  margin: 15rem 50rem 0rem;
+  margin-bottom: 2;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signIn {
+  background-color: #f1f1f1;
+  text-align: center;
+  margin: 0 815px;
+  padding: 20px 0;
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    .container{
+        margin: 5rem 20rem 5rem;
+    }
+
+.signIn{
+    margin: 1em 5rem;
+}
+
+}
+
+
+
+/* Stylesheet for shopping cart */ 
+
+.cartSiteContainer{
+    background-color: #E0E0D8;
+    padding: 10rem 30rem 20rem;
+    text-align: center;
+
+}
+
+.cartProductContainer{
+    background-color:rgb(233, 233, 233);
+    margin-right: 3rem;
+    display: inline-block;
+    padding: 1em;
+    text-align: center;
+   
+}
+
+.cartProductImage{
+    width: 10em;
+    height: auto;
+    margin: 2rem;
+
+}
+
+.cartSumContainer{
+    background-color: rgb(233, 233, 233);
+    padding: 3em;
+    text-align: left;
+}
+
+.cartSumContainer a{
+    padding: 0.5rem;
+    text-decoration: none;
+    display: block;
+    border-style: solid;
+    margin-top: 3rem;
+    background-color: greenyellow;
+    color: black;
+}
+
+.allroundContainer{
+    background-color: rgb(228, 228, 228);
+    padding: 2rem;
+    display: inline-flex;
+    margin-top: 4rem;
+
+}
